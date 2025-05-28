@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.component-genealogy]
+path = 'contracts/component-genealogy.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.end-of-life]
 path = 'contracts/end-of-life.clar'
 clarity_version = 2
